@@ -1,0 +1,12 @@
+{
+  "name": "learn-portuguese-website",
+  "version": "1.0.0",
+  "description": "Manuela's European Portuguese tutoring website",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

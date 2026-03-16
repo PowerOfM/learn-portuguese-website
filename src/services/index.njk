@@ -1,0 +1,82 @@
+---
+layout: layouts/base.njk
+title: Services
+description: "Explore individual and group Portuguese tutoring classes with Manuela in Vancouver — A1 beginners through B2 advanced levels."
+---
+
+{% block content %}
+
+<!-- Page Hero -->
+<section class="page-hero">
+  <div class="container">
+    <h1>Classes &amp; Services</h1>
+    <p>From your very first word to fluent conversation — there&rsquo;s a class that fits exactly where you are.</p>
+  </div>
+</section>
+
+<!-- Intro -->
+<section class="section section--alt">
+  <div class="container text-center">
+    <p style="font-size: 1.1rem; max-width: 700px; margin-inline: auto;">
+      All classes are offered in Vancouver, BC, and focus on <strong>European Portuguese</strong> — the authentic accent and dialect spoken in Portugal. Small group sizes ensure personal attention, and individual sessions are fully customised to your goals.
+    </p>
+  </div>
+</section>
+
+<!-- Service Cards -->
+<section class="section">
+  <div class="container">
+    <div class="grid-3" style="grid-template-columns: 1fr;">
+
+      {% for service in services %}
+      <article class="card" id="{{ service.id }}" style="flex-direction: row; align-items: flex-start; gap: 1.5rem; flex-wrap: wrap;">
+        <div style="flex: 0 0 auto; font-size: 3rem;">{{ service.icon }}</div>
+        <div style="flex: 1; min-width: 220px;">
+          <span class="card__level">{{ service.level }}</span>
+          <h3 style="margin-top: 0.25rem;">{{ service.title }}</h3>
+          <p>{{ service.description }}</p>
+          <ul style="list-style: none; padding: 0; margin: 1rem 0 0;">
+            {% for item in service.highlights %}
+            <li style="display: flex; gap: 0.5rem; align-items: flex-start; margin-bottom: 0.4rem; font-size: 0.95rem; color: var(--color-text-muted);">
+              <span style="color: var(--color-primary); flex-shrink: 0;">✓</span>
+              {{ item }}
+            </li>
+            {% endfor %}
+          </ul>
+          <a href="/contact/" class="btn btn--outline-dark mt-md" style="margin-top: 1rem;">Enquire Now</a>
+        </div>
+      </article>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+
+<!-- CEFR Explainer -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="cefr-callout">
+      <h3>What Do A1, A2, B1, B2 Mean?</h3>
+      <p>
+        These are levels from the <strong>Common European Framework of Reference for Languages (CEFR)</strong> — the international standard used to describe language proficiency. Here&rsquo;s a quick guide:
+      </p>
+      <div class="cefr-levels">
+        <div class="cefr-level"><strong>A1</strong> — Complete beginner. Learning first words and phrases.</div>
+        <div class="cefr-level"><strong>A2</strong> — Elementary. Can handle simple, everyday interactions.</div>
+        <div class="cefr-level"><strong>B1</strong> — Intermediate. Can manage most travel situations and hold basic conversations.</div>
+        <div class="cefr-level"><strong>B2</strong> — Upper intermediate. Can interact fluently with native speakers on familiar topics.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Not Sure Which Level Is Right for You?</h2>
+    <p>Get in touch and Manuela will help you find the perfect starting point — no pressure, no tests required.</p>
+    <a href="/contact/" class="btn btn--white">Get in Touch</a>
+  </div>
+</section>
+
+{% endblock %}

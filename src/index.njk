@@ -1,0 +1,151 @@
+---
+layout: layouts/base.njk
+title: Home
+description: "Learn European Portuguese in Vancouver with Manuela — a native speaker and experienced teacher offering individual and group lessons at all levels."
+---
+
+{% block content %}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <p class="hero__eyebrow">European Portuguese · Vancouver, BC</p>
+    <h1>Learn Portuguese<br>with Confidence</h1>
+    <p class="hero__sub">
+      Join Manuela — a native European Portuguese speaker and certified teacher
+      with 20+ years of experience — and discover the joy of speaking Portuguese.
+    </p>
+    <div class="hero__actions">
+      <a href="/contact/" class="btn btn--primary">Book a Free Consultation</a>
+      <a href="/services/" class="btn btn--outline">See All Classes</a>
+    </div>
+  </div>
+</section>
+
+<!-- Why Learn Portuguese -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__header">
+      <h2>Why Learn Portuguese?</h2>
+      <p>Portuguese is the 6th most spoken language in the world — and one of the most beautiful.</p>
+    </div>
+    <div class="why-list">
+      <div class="why-item">
+        <span class="why-item__icon">✈️</span>
+        <div>
+          <h3>Travel</h3>
+          <p>Explore Portugal, Brazil, and eight other countries where Portuguese is spoken — speaking like a local.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <span class="why-item__icon">🎵</span>
+        <div>
+          <h3>Culture &amp; Arts</h3>
+          <p>Appreciate fado music, azulejo tile art, classic literature, and the warmth of Portuguese culture firsthand.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <span class="why-item__icon">💼</span>
+        <div>
+          <h3>Career</h3>
+          <p>Open doors to business opportunities across the Lusophone world and stand out in a competitive market.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <span class="why-item__icon">❤️</span>
+        <div>
+          <h3>Family &amp; Connection</h3>
+          <p>Connect with heritage, communicate with loved ones, and feel at home in a new community.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Manuela -->
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <h2>Why Learn with Manuela?</h2>
+      <p>More than a teacher — a guide who has dedicated her life to sharing her language and culture.</p>
+    </div>
+    <div class="trust-icons">
+      <div class="trust-icon">
+        <div class="trust-icon__symbol">🇵🇹</div>
+        <h3>Native Speaker</h3>
+        <p>Born and raised in Portugal. You'll learn authentic European Portuguese — the real sounds, rhythms, and expressions.</p>
+      </div>
+      <div class="trust-icon">
+        <div class="trust-icon__symbol">⭐</div>
+        <h3>20+ Years Experience</h3>
+        <p>From young children to adult professionals, Manuela has taught every age and level across two continents.</p>
+      </div>
+      <div class="trust-icon">
+        <div class="trust-icon__symbol">🎓</div>
+        <h3>Certified Teacher</h3>
+        <p>Formally trained and certified, with deep expertise in language pedagogy and personalised learning approaches.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Snapshot -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__header">
+      <h2>Classes for Every Level</h2>
+      <p>Whether you're just starting out or ready to polish your fluency, there's a class for you.</p>
+    </div>
+    <div class="grid-3">
+      {% for service in services %}
+      <article class="card">
+        <div class="card__icon">{{ service.icon }}</div>
+        <span class="card__level">{{ service.level }}</span>
+        <h3>{{ service.title }}</h3>
+        <p>{{ service.description }}</p>
+        <a href="/services/#{{ service.id }}" class="card__link">Learn more &rarr;</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <h2>What Students Say</h2>
+    </div>
+    <div class="grid-3">
+      <div class="testimonial">
+        <blockquote>
+          &ldquo;Manuela made learning Portuguese feel natural and fun. After just a few months I was able to have real conversations during my trip to Lisbon!&rdquo;
+        </blockquote>
+        <cite>— Sarah M., Individual student</cite>
+      </div>
+      <div class="testimonial">
+        <blockquote>
+          &ldquo;The beginner group classes are wonderfully welcoming. Manuela&rsquo;s patience and enthusiasm are infectious — I look forward to every session.&rdquo;
+        </blockquote>
+        <cite>— James T., A1 Group student</cite>
+      </div>
+      <div class="testimonial">
+        <blockquote>
+          &ldquo;I had studied Portuguese before but struggled with the European accent. Manuela&rsquo;s guidance transformed my pronunciation completely.&rdquo;
+        </blockquote>
+        <cite>— Ana R., B1/B2 Group student</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Banner -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Ready to Start Your Portuguese Journey?</h2>
+    <p>Book a free 20-minute consultation call and let&rsquo;s find the perfect class for your goals.</p>
+    <a href="/contact/" class="btn btn--white">Get in Touch Today</a>
+  </div>
+</section>
+
+{% endblock %}
