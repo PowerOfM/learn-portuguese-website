@@ -1,0 +1,35 @@
+.hero {
+  background: linear-gradient(135deg, var(--color-secondary) 0%, #1E4A70 60%, #163A58 100%);
+  color: #fff;
+  padding-block: clamp(3rem, 8vw, 6rem);
+  text-align: center;
+}
+
+.hero__eyebrow {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: var(--space-sm);
+}
+
+.hero h1 {
+  color: #fff;
+  margin-bottom: var(--space-sm);
+}
+
+.hero__sub {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  opacity: 0.9;
+  max-width: 600px;
+  margin-inline: auto;
+  margin-bottom: var(--space-lg);
+}
+
+.hero__actions {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+  flex-wrap: wrap;
+}

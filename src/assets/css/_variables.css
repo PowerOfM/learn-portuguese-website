@@ -1,0 +1,30 @@
+:root {
+  /* Colors */
+  --color-primary: #C75B3A;
+  --color-primary-dark: #A84828;
+  --color-secondary: #2A5F8F;
+  --color-secondary-dark: #1E4A70;
+  --color-bg: #FDF6ED;
+  --color-surface: #FFFFFF;
+  --color-text: #2C2C2C;
+  --color-text-muted: #6B6B6B;
+  --color-border: #E8DDD0;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Lato', system-ui, sans-serif;
+  --font-size-base: 16px;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+
+  /* Layout */
+  --container-max: 1100px;
+  --radius: 8px;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 4px 20px rgba(0, 0, 0, 0.14);
+}

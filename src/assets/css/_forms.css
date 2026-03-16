@@ -1,0 +1,22 @@
+/* Contact page email section */
+.contact-email {
+  text-align: center;
+  padding: var(--space-xl) 0;
+}
+
+.contact-email__address {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.contact-response {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  justify-content: center;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin-top: var(--space-md);
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "individual",
+    "title": "Individual Tutoring",
+    "level": "All Levels",
+    "icon": "🎯",
+    "description": "One-on-one lessons tailored entirely to your goals, schedule, and learning style. Whether you're a complete beginner or polishing advanced grammar, every session is designed around you.",
+    "highlights": [
+      "Fully personalised curriculum",
+      "Flexible scheduling to fit your life",
+      "Progress at your own pace",
+      "Suitable for A1 through B2"
+    ]
+  },
+  {
+    "id": "a1",
+    "title": "Group: Total Beginners",
+    "level": "A1",
+    "icon": "🌱",
+    "description": "Never spoken a word of Portuguese? This is your starting point. Small, friendly groups where you'll build your foundation in pronunciation, essential vocabulary, and everyday phrases.",
+    "highlights": [
+      "Small groups (max 6 students)",
+      "Structured, step-by-step curriculum",
+      "Focus on pronunciation and survival phrases",
+      "Fun, supportive atmosphere"
+    ]
+  },
+  {
+    "id": "a2",
+    "title": "Group: Elementary",
+    "level": "A2",
+    "icon": "🌿",
+    "description": "You have some basics but want to grow your confidence. This group builds on what you know — expanding vocabulary, introducing more grammar, and starting real conversations.",
+    "highlights": [
+      "Build on existing vocabulary",
+      "Introduce past and future tenses",
+      "Guided conversations and role-play",
+      "Cultural context and real-world language"
+    ]
+  },
+  {
+    "id": "b1b2",
+    "title": "Group: Intermediate / Advanced",
+    "level": "B1 / B2",
+    "icon": "🌳",
+    "description": "You can hold a conversation — now let's refine it. This group focuses on fluency, nuance, complex grammar, and the cultural depth that makes European Portuguese so rich.",
+    "highlights": [
+      "Advanced grammar and idioms",
+      "Discussion of authentic Portuguese media",
+      "Cultural immersion: fado, history, literature",
+      "Preparation for travel or living in Portugal"
+    ]
+  }
+]

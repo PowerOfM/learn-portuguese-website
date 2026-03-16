@@ -1,0 +1,167 @@
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-lg) var(--space-md);
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.25s, transform 0.25s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-3px);
+}
+
+.card__icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-sm);
+}
+
+.card__level {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  padding: 0.2em 0.75em;
+  margin-bottom: var(--space-sm);
+}
+
+.card h3 {
+  color: var(--color-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+.card p {
+  color: var(--color-text-muted);
+  flex: 1;
+}
+
+.card__link {
+  margin-top: var(--space-sm);
+  font-weight: 700;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.card__link:hover {
+  text-decoration: underline;
+}
+
+/* Trust icons */
+.trust-icons {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .trust-icons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.trust-icon {
+  text-align: center;
+  padding: var(--space-md);
+}
+
+.trust-icon__symbol {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-xs);
+}
+
+.trust-icon h3 {
+  color: var(--color-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.trust-icon p {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* Testimonials */
+.testimonial {
+  background: var(--color-surface);
+  border-left: 4px solid var(--color-primary);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: var(--space-md) var(--space-lg);
+  box-shadow: var(--shadow);
+}
+
+.testimonial blockquote {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--color-text);
+  margin-bottom: var(--space-sm);
+}
+
+.testimonial cite {
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
+
+/* CTA Banner */
+.cta-banner {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: #fff;
+  text-align: center;
+  padding-block: var(--space-xl);
+}
+
+.cta-banner h2 {
+  color: #fff;
+  margin-bottom: var(--space-sm);
+}
+
+.cta-banner p {
+  opacity: 0.9;
+  max-width: 520px;
+  margin-inline: auto;
+  margin-bottom: var(--space-md);
+}
+
+/* CEFR callout */
+.cefr-callout {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-md) var(--space-lg);
+  margin-top: var(--space-lg);
+}
+
+.cefr-callout h3 {
+  color: var(--color-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+.cefr-levels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-top: var(--space-sm);
+}
+
+.cefr-level {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 0.4em 0.85em;
+  font-size: 0.9rem;
+}
+
+.cefr-level strong {
+  color: var(--color-primary);
+}
