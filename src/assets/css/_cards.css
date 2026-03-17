@@ -15,7 +15,6 @@
 }
 
 .card__icon {
-  font-size: 2.5rem;
   margin-bottom: var(--space-sm);
 }
 
@@ -74,7 +73,6 @@
 }
 
 .trust-icon__symbol {
-  font-size: 2.5rem;
   margin-bottom: var(--space-xs);
 }
 
