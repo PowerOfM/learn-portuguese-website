@@ -22,6 +22,8 @@ description: "Learn European Portuguese in Vancouver with Manuela — a native s
   </div>
 </section>
 
+<div class="tile-strip" aria-hidden="true"></div>
+
 <!-- Why Learn Portuguese -->
 <section class="section section--alt">
   <div class="container">
@@ -31,28 +33,28 @@ description: "Learn European Portuguese in Vancouver with Manuela — a native s
     </div>
     <div class="why-list">
       <div class="why-item">
-        <span class="why-item__icon">✈️</span>
+        <span class="why-item__icon"><i data-lucide="plane"></i></span>
         <div>
           <h3>Travel</h3>
           <p>Explore Portugal, Brazil, and eight other countries where Portuguese is spoken — speaking like a local.</p>
         </div>
       </div>
       <div class="why-item">
-        <span class="why-item__icon">🎵</span>
+        <span class="why-item__icon"><i data-lucide="music"></i></span>
         <div>
           <h3>Culture &amp; Arts</h3>
           <p>Appreciate fado music, azulejo tile art, classic literature, and the warmth of Portuguese culture firsthand.</p>
         </div>
       </div>
       <div class="why-item">
-        <span class="why-item__icon">💼</span>
+        <span class="why-item__icon"><i data-lucide="briefcase"></i></span>
         <div>
           <h3>Career</h3>
           <p>Open doors to business opportunities across the Lusophone world and stand out in a competitive market.</p>
         </div>
       </div>
       <div class="why-item">
-        <span class="why-item__icon">❤️</span>
+        <span class="why-item__icon"><i data-lucide="heart"></i></span>
         <div>
           <h3>Family &amp; Connection</h3>
           <p>Connect with heritage, communicate with loved ones, and feel at home in a new community.</p>
@@ -71,17 +73,17 @@ description: "Learn European Portuguese in Vancouver with Manuela — a native s
     </div>
     <div class="trust-icons">
       <div class="trust-icon">
-        <div class="trust-icon__symbol">🇵🇹</div>
+        <div class="trust-icon__symbol"><i data-lucide="globe"></i></div>
         <h3>Native Speaker</h3>
         <p>Born and raised in Portugal. You'll learn authentic European Portuguese — the real sounds, rhythms, and expressions.</p>
       </div>
       <div class="trust-icon">
-        <div class="trust-icon__symbol">⭐</div>
+        <div class="trust-icon__symbol"><i data-lucide="star"></i></div>
         <h3>20+ Years Experience</h3>
         <p>From young children to adult professionals, Manuela has taught every age and level across two continents.</p>
       </div>
       <div class="trust-icon">
-        <div class="trust-icon__symbol">🎓</div>
+        <div class="trust-icon__symbol"><i data-lucide="graduation-cap"></i></div>
         <h3>Certified Teacher</h3>
         <p>Formally trained and certified, with deep expertise in language pedagogy and personalised learning approaches.</p>
       </div>
@@ -99,7 +101,7 @@ description: "Learn European Portuguese in Vancouver with Manuela — a native s
     <div class="grid-3">
       {% for service in services %}
       <article class="card">
-        <div class="card__icon">{{ service.icon }}</div>
+        <div class="card__icon"><i data-lucide="{{ service.icon }}"></i></div>
         <span class="card__level">{{ service.level }}</span>
         <h3>{{ service.title }}</h3>
         <p>{{ service.description }}</p>

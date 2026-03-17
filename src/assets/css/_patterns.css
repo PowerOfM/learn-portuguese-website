@@ -1,0 +1,152 @@
+/* ===================================================
+   Azulejo Tile Patterns — Portuguese-inspired design
+   =================================================== */
+
+/* Tile strip divider: full-width band of navy azulejo tiles */
+.tile-strip {
+  height: 80px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Crect width='80' height='80' fill='%232A5F8F'/%3E%3Cline x1='0' y1='0' x2='80' y2='0' stroke='rgba(255,255,255,0.2)' stroke-width='1'/%3E%3Cline x1='0' y1='0' x2='0' y2='80' stroke='rgba(255,255,255,0.2)' stroke-width='1'/%3E%3Crect x='10' y='10' width='60' height='60' fill='none' stroke='rgba(255,255,255,0.45)' stroke-width='0.8'/%3E%3Cpolygon points='40,20 60,40 40,60 20,40' fill='none' stroke='white' stroke-width='1.6'/%3E%3Cline x1='40' y1='10' x2='40' y2='20' stroke='rgba(255,255,255,0.5)' stroke-width='0.8'/%3E%3Cline x1='40' y1='60' x2='40' y2='70' stroke='rgba(255,255,255,0.5)' stroke-width='0.8'/%3E%3Cline x1='10' y1='40' x2='20' y2='40' stroke='rgba(255,255,255,0.5)' stroke-width='0.8'/%3E%3Cline x1='60' y1='40' x2='70' y2='40' stroke='rgba(255,255,255,0.5)' stroke-width='0.8'/%3E%3Cline x1='10' y1='10' x2='22' y2='22' stroke='rgba(255,255,255,0.5)' stroke-width='0.8'/%3E%3Cline x1='70' y1='10' x2='58' y2='22' stroke='rgba(255,255,255,0.5)' stroke-width='0.8'/%3E%3Cline x1='10' y1='70' x2='22' y2='58' stroke='rgba(255,255,255,0.5)' stroke-width='0.8'/%3E%3Cline x1='70' y1='70' x2='58' y2='58' stroke='rgba(255,255,255,0.5)' stroke-width='0.8'/%3E%3Ccircle cx='10' cy='10' r='3' fill='rgba(255,255,255,0.6)'/%3E%3Ccircle cx='70' cy='10' r='3' fill='rgba(255,255,255,0.6)'/%3E%3Ccircle cx='10' cy='70' r='3' fill='rgba(255,255,255,0.6)'/%3E%3Ccircle cx='70' cy='70' r='3' fill='rgba(255,255,255,0.6)'/%3E%3Ccircle cx='40' cy='40' r='5' fill='white'/%3E%3C/svg%3E");
+  background-size: 80px 80px;
+  background-color: var(--color-secondary);
+}
+
+/* Subtle tile texture layered on top of white alt-section backgrounds */
+.section--alt {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cline x1='0' y1='0' x2='60' y2='0' stroke='rgba(42,95,143,0.15)' stroke-width='1'/%3E%3Cline x1='0' y1='0' x2='0' y2='60' stroke='rgba(42,95,143,0.15)' stroke-width='1'/%3E%3Crect x='8' y='8' width='44' height='44' fill='none' stroke='rgba(42,95,143,0.18)' stroke-width='0.6'/%3E%3Cpolygon points='30,15 45,30 30,45 15,30' fill='none' stroke='rgba(42,95,143,0.22)' stroke-width='1'/%3E%3Cline x1='30' y1='8' x2='30' y2='15' stroke='rgba(42,95,143,0.15)' stroke-width='0.6'/%3E%3Cline x1='30' y1='45' x2='30' y2='52' stroke='rgba(42,95,143,0.15)' stroke-width='0.6'/%3E%3Cline x1='8' y1='30' x2='15' y2='30' stroke='rgba(42,95,143,0.15)' stroke-width='0.6'/%3E%3Cline x1='45' y1='30' x2='52' y2='30' stroke='rgba(42,95,143,0.15)' stroke-width='0.6'/%3E%3Ccircle cx='8' cy='8' r='2' fill='rgba(42,95,143,0.2)'/%3E%3Ccircle cx='52' cy='8' r='2' fill='rgba(42,95,143,0.2)'/%3E%3Ccircle cx='8' cy='52' r='2' fill='rgba(42,95,143,0.2)'/%3E%3Ccircle cx='52' cy='52' r='2' fill='rgba(42,95,143,0.2)'/%3E%3Ccircle cx='30' cy='30' r='2.5' fill='rgba(42,95,143,0.22)'/%3E%3C/svg%3E");
+  background-size: 60px 60px;
+}
+
+/* Tile overlay on hero: tile pattern on top of the gradient */
+.hero {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cline x1='0' y1='0' x2='60' y2='0' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Cline x1='0' y1='0' x2='0' y2='60' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Crect x='8' y='8' width='44' height='44' fill='none' stroke='rgba(255,255,255,0.1)' stroke-width='0.6'/%3E%3Cpolygon points='30,15 45,30 30,45 15,30' fill='none' stroke='rgba(255,255,255,0.14)' stroke-width='0.8'/%3E%3Ccircle cx='8' cy='8' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='52' cy='8' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='8' cy='52' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='52' cy='52' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='30' cy='30' r='2' fill='rgba(255,255,255,0.12)'/%3E%3C/svg%3E"),
+    linear-gradient(135deg, var(--color-secondary) 0%, #1E4A70 60%, #163A58 100%);
+  background-size: 60px 60px, 100% 100%;
+}
+
+/* Same tile overlay for page heroes */
+.page-hero {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cline x1='0' y1='0' x2='60' y2='0' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Cline x1='0' y1='0' x2='0' y2='60' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Crect x='8' y='8' width='44' height='44' fill='none' stroke='rgba(255,255,255,0.1)' stroke-width='0.6'/%3E%3Cpolygon points='30,15 45,30 30,45 15,30' fill='none' stroke='rgba(255,255,255,0.14)' stroke-width='0.8'/%3E%3Ccircle cx='8' cy='8' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='52' cy='8' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='8' cy='52' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='52' cy='52' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='30' cy='30' r='2' fill='rgba(255,255,255,0.12)'/%3E%3C/svg%3E"),
+    linear-gradient(135deg, var(--color-secondary) 0%, #1E4A70 100%);
+  background-size: 60px 60px, 100% 100%;
+}
+
+/* Tile overlay on CTA banners */
+.cta-banner {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cline x1='0' y1='0' x2='60' y2='0' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Cline x1='0' y1='0' x2='0' y2='60' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Crect x='8' y='8' width='44' height='44' fill='none' stroke='rgba(255,255,255,0.1)' stroke-width='0.6'/%3E%3Cpolygon points='30,15 45,30 30,45 15,30' fill='none' stroke='rgba(255,255,255,0.14)' stroke-width='0.8'/%3E%3Ccircle cx='8' cy='8' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='52' cy='8' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='8' cy='52' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='52' cy='52' r='1.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='30' cy='30' r='2' fill='rgba(255,255,255,0.12)'/%3E%3C/svg%3E"),
+    linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  background-size: 60px 60px, 100% 100%;
+}
+
+/* ===================================================
+   Lucide icon sizing & colouring
+   =================================================== */
+
+/* Card icons (service cards, qualification cards) */
+.card__icon {
+  color: var(--color-secondary);
+}
+
+.card__icon svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+}
+
+/* Trust icons (native speaker, experience, certified) */
+.trust-icon__symbol {
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+.trust-icon__symbol svg {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+/* Why-item icons (benefits, philosophy, culture sections) */
+.why-item__icon {
+  color: var(--color-primary);
+}
+
+.why-item__icon svg {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+}
+
+/* Photo placeholder icon */
+.photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-placeholder svg {
+  width: 5rem;
+  height: 5rem;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+/* Full-width service card icon */
+.service-icon {
+  flex: 0 0 auto;
+  width: 3.5rem;
+  height: 3.5rem;
+  color: var(--color-secondary);
+}
+
+.service-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Contact email button icon */
+.btn svg {
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.4em;
+}
+
+/* Contact response-time icon */
+.contact-response svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  flex-shrink: 0;
+  color: var(--color-primary);
+}
+
+/* Numbered step circles (contact page) */
+.step-number {
+  width: 3rem;
+  height: 3rem;
+  background: var(--color-secondary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+}
+
+/* Highlight check marks on service cards */
+.highlight-check {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+}
+
+.highlight-check svg {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+}

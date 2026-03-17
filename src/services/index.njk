@@ -14,6 +14,8 @@ description: "Explore individual and group Portuguese tutoring classes with Manu
   </div>
 </section>
 
+<div class="tile-strip" aria-hidden="true"></div>
+
 <!-- Intro -->
 <section class="section section--alt">
   <div class="container text-center">
@@ -30,7 +32,7 @@ description: "Explore individual and group Portuguese tutoring classes with Manu
 
       {% for service in services %}
       <article class="card" id="{{ service.id }}" style="flex-direction: row; align-items: flex-start; gap: 1.5rem; flex-wrap: wrap;">
-        <div style="flex: 0 0 auto; font-size: 3rem;">{{ service.icon }}</div>
+        <div class="service-icon"><i data-lucide="{{ service.icon }}"></i></div>
         <div style="flex: 1; min-width: 220px;">
           <span class="card__level">{{ service.level }}</span>
           <h3 style="margin-top: 0.25rem;">{{ service.title }}</h3>
@@ -38,7 +40,7 @@ description: "Explore individual and group Portuguese tutoring classes with Manu
           <ul style="list-style: none; padding: 0; margin: 1rem 0 0;">
             {% for item in service.highlights %}
             <li style="display: flex; gap: 0.5rem; align-items: flex-start; margin-bottom: 0.4rem; font-size: 0.95rem; color: var(--color-text-muted);">
-              <span style="color: var(--color-primary); flex-shrink: 0;">✓</span>
+              <span class="highlight-check"><i data-lucide="check"></i></span>
               {{ item }}
             </li>
             {% endfor %}

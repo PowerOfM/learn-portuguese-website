@@ -3,7 +3,7 @@
     "id": "individual",
     "title": "Individual Tutoring",
     "level": "All Levels",
-    "icon": "🎯",
+    "icon": "target",
     "description": "One-on-one lessons tailored entirely to your goals, schedule, and learning style. Whether you're a complete beginner or polishing advanced grammar, every session is designed around you.",
     "highlights": [
       "Fully personalised curriculum",
@@ -16,7 +16,7 @@
     "id": "a1",
     "title": "Group: Total Beginners",
     "level": "A1",
-    "icon": "🌱",
+    "icon": "sprout",
     "description": "Never spoken a word of Portuguese? This is your starting point. Small, friendly groups where you'll build your foundation in pronunciation, essential vocabulary, and everyday phrases.",
     "highlights": [
       "Small groups (max 6 students)",
@@ -29,7 +29,7 @@
     "id": "a2",
     "title": "Group: Elementary",
     "level": "A2",
-    "icon": "🌿",
+    "icon": "leaf",
     "description": "You have some basics but want to grow your confidence. This group builds on what you know — expanding vocabulary, introducing more grammar, and starting real conversations.",
     "highlights": [
       "Build on existing vocabulary",
@@ -42,7 +42,7 @@
     "id": "b1b2",
     "title": "Group: Intermediate / Advanced",
     "level": "B1 / B2",
-    "icon": "🌳",
+    "icon": "tree-pine",
     "description": "You can hold a conversation — now let's refine it. This group focuses on fluency, nuance, complex grammar, and the cultural depth that makes European Portuguese so rich.",
     "highlights": [
       "Advanced grammar and idioms",
